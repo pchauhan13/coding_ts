@@ -5,7 +5,7 @@ let x: [string, number];
 x = ["hello", 10];
 console.log(x);
 
-enum Color { Red, Green, Blue };
+enum Color { Red = 1, Green, Blue };
 let c: Color = Color.Green;
 console.log(c);
 
