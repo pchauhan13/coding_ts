@@ -4,3 +4,6 @@ function warnUser(): void
 }
 
 warnUser();
+
+let unusable: void = undefined;
+unusable = null;
