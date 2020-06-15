@@ -13,3 +13,8 @@ function f([first, second]: [number, number])
 }
 
 f([first, second]);
+
+let [yep, ...rest] = [1, 2, 3, 4];
+
+[yep] = [1, 2, 3, 4];
+console.log(yep);
