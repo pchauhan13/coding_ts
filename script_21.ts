@@ -5,7 +5,7 @@ interface Counter {
 }
 
 function getCounter(): Counter {
-  let counter = (function (start: nyumber) {}) as Counter;
+  let counter = (function (start: number) {}) as Counter;
   counter.interval = 4.9;
   counter.reset = function() {};
   return counter;
